@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-        <Route path="/" exact element={<Landing />}/>
+        <Route path="/cv.v2" exact element={<Landing />}/>
     </Routes>
   </BrowserRouter>
 );
